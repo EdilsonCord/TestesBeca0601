@@ -5,10 +5,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class DriverFactory {
 
-    public static WebDriver driver;
+    private static WebDriver driver;
 
     public void iniciarDriver(){
-    	System.setProperty("webdriver.chrome.driver", "C:\\chromedriver\\chromedriver.exe");
+    	System.setProperty("webdriver.chrome.driver", "C:\\seleniumDriver\\chromedriver.exe");
         driver = new ChromeDriver();
     }
 
